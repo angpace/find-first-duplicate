@@ -1,6 +1,36 @@
 function findFirstDuplicate(arr) {
+  const numbersSeen = []
   // type your code here
-}
+  //could have an array that stores, or an object. 
+  for(let i = 0; i < arr.length; i ++){
+
+    if (numbersSeen.includes(element)){
+      return element
+      } else {
+        numbersSeen.push(element)
+      }
+    }
+
+    return -1
+
+  }
+  // const numbersSeen = []
+  // result = -1
+  // arr.forEach(element => { 
+
+  //  if (numbersSeen.includes(element)) {
+  //   result = element 
+  //     return;
+  //   } else {
+
+  //     numbersSeen.push(element)
+  //   }
+  //   // has this element been encountered before.
+  //   //includes
+
+    
+  // });
+  // return result;
 
 if (require.main === module) {
   // add your own tests in here

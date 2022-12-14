@@ -1,5 +1,17 @@
+#my test cases
+#input => output 
+# [1,2,2,3] => 2
+# [1,1] => 1
+# [1, 3, 4, 4] => 4
+
+
 def find_first_duplicate(arr)
-  # type your code in here
+  # Look/iterate through an array to find the first case of a duplicate number. If there is no duplicate the output 
+  # should be -1. 
+  # Tool box: includes..? uniquness? .filter? .uniq
+  new_array = []
+  arr.uniq!.
+ 
 end
 
 if __FILE__ == $PROGRAM_NAME
